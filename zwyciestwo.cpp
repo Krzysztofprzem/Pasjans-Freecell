@@ -13,7 +13,7 @@ void rysunek()
 {
     fstream plik;
     string linia;
-    plik.open("RysunekASCII.txt", ios::in);
+    plik.open("Rysunek_ASCII.txt", ios::in);
     if(!plik)
         exit(0);
     cout<<"GRATULACJE!"<<endl;
